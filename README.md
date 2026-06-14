@@ -1,3 +1,10 @@
+![AI](https://img.shields.io/badge/AI-Business%20Intelligence-black)
+
+![Strategy](https://img.shields.io/badge/Focus-International%20Expansion-blue)
+
+![Business Development](https://img.shields.io/badge/Business-Development-green)
+
+![Geopolitics](https://img.shields.io/badge/Analysis-Geopolitical%20Risk-orange)
 # AI Business Development Toolkit
 
 AI-powered toolkit designed to support:
