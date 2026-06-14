@@ -49,3 +49,15 @@ This repository reflects a strategic approach to combining:
 * Institutional & Government Relations
 
 The objective is to explore how AI and business intelligence can support scalable international operations, strategic growth, and cross-border commercial expansion.
+
+---
+
+# Executive Dashboards
+
+## Global Expansion Intelligence Dashboard
+
+AI-assisted executive dashboard focused on international market prioritization, geopolitical intelligence, strategic partnerships, and commercial expansion opportunities.
+
+<p align="center">
+  <img src="assets/screenshots/global-expansion-dashboard.png" width="1000"/>
+</p>
