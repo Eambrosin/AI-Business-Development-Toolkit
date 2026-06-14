@@ -71,3 +71,13 @@ Executive commercial intelligence dashboard focused on AI-assisted lead qualific
 <p align="center">
   <img src="assets/screenshots/ai-commercial-operations-dashboard.png" width="1000"/>
 </p>
+
+---
+
+## Geopolitical Risk Intelligence Matrix
+
+Strategic geopolitical intelligence dashboard designed to support international market expansion, regulatory risk assessment, institutional analysis, and cross-border operational strategy.
+
+<p align="center">
+  <img src="assets/screenshots/geopolitical-risk-intelligence-matrix.png" width="1000"/>
+</p>
