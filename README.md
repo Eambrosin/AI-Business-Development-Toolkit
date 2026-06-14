@@ -8,25 +8,82 @@ AI-powered toolkit designed to support:
 * Business Intelligence
 * Cross-Border Commercial Operations
 
-## Objective
+---
 
-This project explores practical applications of artificial intelligence within international business development and commercial growth strategies.
+# Objective
 
-## Areas of Focus
+This repository explores practical applications of artificial intelligence within international business development, strategic partnerships, and commercial expansion.
 
-* AI-assisted market analysis
-* International expansion research
-* Commercial opportunity mapping
-* Business intelligence workflows
-* Geopolitical risk insights
+The project combines:
 
-## Technologies
+* AI-assisted workflows
+* international market intelligence
+* business strategy
+* geopolitical analysis
+* operational insights
 
-* OpenAI APIs
-* Python
-* Data Visualization
-* Business Intelligence Concepts
+with a focus on modern global commercial environments.
 
-## Vision
+---
 
-To combine AI capabilities with strategic business development and international commercial operations.
+# Core Areas
+
+## Market Expansion Analysis
+
+Exploring how AI can support:
+
+* international expansion strategies
+* opportunity identification
+* market prioritization
+* competitive intelligence
+
+## Strategic Partnership Research
+
+Using AI-assisted workflows to:
+
+* identify strategic partners
+* analyze institutional environments
+* support commercial relationship-building
+
+## Geopolitical Business Intelligence
+
+Analyzing:
+
+* geopolitical risks
+* supply chain disruptions
+* trade restrictions
+* global market shifts
+
+## AI-Assisted Commercial Operations
+
+Exploring automation and intelligence workflows capable of improving:
+
+* lead qualification
+* market research
+* operational visibility
+* strategic decision-making
+
+---
+
+# Vision
+
+The future of business development will increasingly combine:
+
+* human relationship-building
+* strategic thinking
+* operational execution
+* AI-powered intelligence
+
+Organizations capable of integrating AI into commercial operations will likely gain significant competitive advantages in global markets.
+
+---
+
+# Current Focus
+
+* AI for Business Development
+* Cross-Border Operations
+* Strategic Market Expansion
+* Commercial Intelligence
+* Geopolitical Risk Analysis
+* International Partnerships
+ strategic business development and international commercial operations.
