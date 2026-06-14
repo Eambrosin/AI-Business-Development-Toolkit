@@ -61,3 +61,13 @@ AI-assisted executive dashboard focused on international market prioritization, 
 <p align="center">
   <img src="assets/screenshots/global-expansion-dashboard.png" width="1000"/>
 </p>
+
+---
+
+## AI Commercial Operations Dashboard
+
+Executive commercial intelligence dashboard focused on AI-assisted lead qualification, strategic pipeline monitoring, revenue operations, partnership analytics, and automation efficiency.
+
+<p align="center">
+  <img src="assets/screenshots/ai-commercial-operations-dashboard.png" width="1000"/>
+</p>
