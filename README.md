@@ -1,11 +1,6 @@
-![AI](https://img.shields.io/badge/AI-Business%20Intelligence-black)
-
-![Strategy](https://img.shields.io/badge/Focus-International%20Expansion-blue)
-
-![Business Development](https://img.shields.io/badge/Business-Development-green)
-
-![Geopolitics](https://img.shields.io/badge/Analysis-Geopolitical%20Risk-orange)
-![Global AI Business Intelligence](global-network-connection-world-map-digital-background_1017-23322 (1))
+<p align="center">
+  <img src="./assets/banners/global-operation.jpg" alt="AI Business Development Banner" width="100%">
+</p>
 
 # AI Business Development Toolkit
 
