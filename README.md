@@ -1,4 +1,6 @@
-![Banner](./assets/banners/global-operation.jpg)
+<p align="center">
+  <img src="assets/banners/global-operation.jpg" width="900"/>
+</p>
 
 # AI Business Development Toolkit
 
