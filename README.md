@@ -81,3 +81,13 @@ Strategic geopolitical intelligence dashboard designed to support international 
 <p align="center">
   <img src="assets/screenshots/geopolitical-risk-intelligence-matrix.png" width="1000"/>
 </p>
+
+---
+
+## International Expansion Strategic Framework
+
+Strategic framework designed to support AI-enabled international expansion through market intelligence, geopolitical assessment, regulatory analysis, strategic partnerships, operational execution, and continuous optimization.
+
+<p align="center">
+  <img src="assets/screenshots/international-expansion-strategic-framework.png" width="1000"/>
+</p>
