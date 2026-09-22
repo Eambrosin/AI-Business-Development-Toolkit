@@ -39,6 +39,100 @@ Together, these systems form an evolving AI-assisted Commercial Intelligence eco
 
 ---
 
+## Current Product Status
+
+The toolkit is evolving from a collection of Business Development experiments into an integrated Commercial Intelligence ecosystem.
+
+### ✅ PRIORITIZE — Lead Qualification & Revenue Prioritization
+
+**Status:** Shipped — v2.0.0
+
+A configurable Commercial Intelligence platform for evaluating pipeline opportunities against an Ideal Customer Profile.
+
+Core capabilities include:
+
+- Configurable ICP
+- Region Fit
+- Industry Fit
+- Company Size Fit
+- Deal Value assessment
+- Engagement scoring
+- Explainable commercial scoring
+- Priority tiers
+- Recommended commercial actions
+- Executive pipeline prioritization
+- Optional AI-assisted account intelligence
+
+[View Repository](https://github.com/Eambrosin/lead-qualification-scorer)
+
+[Launch Application](https://lead-qualification-scorer-eambrosin.streamlit.app/)
+
+---
+
+### ✅ ENGAGE — Adaptive Outreach Intelligence
+
+**Status:** Shipped — v2.0.0
+
+An adaptive Commercial Intelligence platform that converts qualification context into prioritized, multilingual outreach execution.
+
+Core capabilities include:
+
+- Commercial Intelligence Mode
+- Standard Outreach Mode
+- Adaptive commercial priority
+- Dynamic outreach cadence
+- Multilingual communication
+- Country-based channel strategy
+- Prospecting and Post-Proposal workflows
+- Revenue At Risk visibility
+- Commercial Decision Support
+- Deterministic local fallback
+- Optional AI-assisted message generation
+
+The application can directly consume prioritized pipeline exports from the Lead Qualification platform.
+
+[View Repository](https://github.com/Eambrosin/outreach-sequence-generator)
+
+[Launch Application](https://outreach-sequence-generator-7dcmglcxfnmszlodg8lqre.streamlit.app/)
+
+---
+
+### 🤝 PARTNER — Partnership Opportunity Finder
+
+**Status:** Shipped / Improving
+
+Identifies, scores and prioritizes strategic partnership opportunities.
+
+[View Repository](https://github.com/Eambrosin/partnership-opportunity-finder)
+
+---
+
+### 🌍 EXPAND — Global Market Entry Intelligence
+
+**Status:** In Development
+
+Designed to support structured international market-entry decisions using commercial, regulatory and strategic expansion criteria.
+
+---
+
+## Integrated Commercial Intelligence Flow
+
+```text
+IDENTIFY
+    ↓
+PRIORITIZE
+Lead Qualification & Revenue Prioritization
+    ↓
+ENGAGE
+Adaptive Outreach Intelligence
+    ↓
+PARTNER
+Partnership Opportunity Intelligence
+    ↓
+EXPAND
+Global Market Entry Intelligence
+---
+
 ## Featured Applications
 
 ### 🎯 Lead Qualification & Revenue Prioritization
