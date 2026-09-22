@@ -1,272 +1,699 @@
-# Commercial Intelligence Roadmap
+# AI Business Development Toolkit — Roadmap
 
-This roadmap tracks the evolution of the AI Business Development Toolkit from standalone Business Development applications toward an integrated AI-assisted Commercial Intelligence ecosystem.
+The AI Business Development Toolkit is evolving from a collection of standalone Business Development applications into an integrated **Commercial Intelligence ecosystem**.
 
-The development philosophy is based on a simple lifecycle:
+The long-term direction is:
 
-## Identify → Prioritize → Engage → Partner → Expand
+**IDENTIFY → PRIORITIZE → ENGAGE → PARTNER → EXPAND**
 
----
-
-## ✅ Shipped
-
-### Lead Qualification & Revenue Prioritization
-
-Initial commercial intelligence platform designed to identify and prioritize higher-potential Business Development opportunities.
-
-Current capabilities include:
-
-* Lead Scoring
-* Tier Classification
-* Revenue Prioritization
-* Executive Account Dashboard
-* Lead Intelligence Workspace
-* AI Account Intelligence
-* GTM Recommendations
-
-Repository:
-
-[lead-qualification-scorer](https://github.com/Eambrosin/lead-qualification-scorer)
+Each module is designed to solve a specific commercial problem while progressively sharing structured information with the next stage of the workflow.
 
 ---
 
-### Outreach Intelligence
+## Product Architecture
 
-AI-assisted commercial engagement platform focused on structured outreach and follow-up execution.
+```text
+IDENTIFY
+    ↓
+Opportunity Discovery
+    ↓
+PRIORITIZE
+Lead Qualification & Revenue Prioritization
+    ↓
+ENGAGE
+Adaptive Outreach Intelligence
+    ↓
+PARTNER
+Partnership Opportunity Intelligence
+    ↓
+EXPAND
+Global Market Entry Intelligence
+```
 
-Current capabilities include:
+The objective is to preserve commercial context throughout the entire Business Development process.
 
-* Follow-Up Prioritization
-* AI Outreach Generation
-* Commercial Opportunity Assessment
-* Revenue Risk Analysis
-* Multi-Step Outreach Sequences
-* Executive Outreach Dashboard
-
-Repository:
-
-[outreach-sequence-generator](https://github.com/Eambrosin/outreach-sequence-generator)
-
----
-
-### Partnership Opportunity Finder
-
-Strategic partnership intelligence application designed to evaluate and prioritize partnership opportunities.
-
-Current capabilities include:
-
-* Partnership Fit Scoring
-* Partnership Portfolio Analysis
-* Opportunity Heatmaps
-* Regional Expansion Analysis
-* AI Partnership Insights
-* Executive Recommendations
-
-Repository:
-
-[partnership-opportunity-finder](https://github.com/Eambrosin/partnership-opportunity-finder)
+Instead of using disconnected tools, qualification results, engagement signals, partnership opportunities and market-entry analysis can progressively become part of the same Commercial Intelligence workflow.
 
 ---
 
-## 🔄 Improving
+# ✅ Shipped
 
-### Lead Intelligence
+## PRIORITIZE — Lead Qualification & Revenue Prioritization Platform
 
-Planned improvements:
+**Status:** Shipped  
+**Current Release:** v2.0.0
 
-* Configurable Ideal Customer Profile criteria
-* Adjustable scoring weights
-* Expanded scoring rationale
-* Lead comparison
-* Opportunity-level prioritization
-* Exportable commercial reports
+A configurable Commercial Intelligence platform designed to determine which opportunities deserve attention, why they matter and what commercial action should happen next.
 
----
+### Core Capabilities
 
-### Outreach Intelligence
+- Configurable Ideal Customer Profile
+- Priority Region selection
+- Priority Industry selection
+- Preferred Company Size range
+- Region Fit scoring
+- Industry Fit scoring
+- Company Size Fit
+- Deal Value assessment
+- Engagement scoring
+- Five-factor commercial scoring
+- Adjustable scoring priorities
+- Automatic weight normalization
+- Configurable Tier thresholds
+- Explainable score breakdown
+- Priority classification
+- Recommended commercial actions
+- Executive pipeline dashboard
+- Revenue prioritization
+- Pipeline ranking
+- CSV export
+- Optional AI-assisted Account Intelligence
+- Optional AI-assisted Outreach
+- Evidence-aware AI guardrails
+- Deterministic scoring as source of truth
 
-Planned improvements:
+### Architecture Principle
 
-* Multilingual outreach workflows
-* Persona-based messaging
-* Account-specific communication strategies
-* Outreach sequencing by opportunity tier
-* Improved follow-up recommendations
-* Integration with lead qualification outputs
+The commercial score is calculated using deterministic rules.
 
----
+AI does not determine or modify:
 
-### Partnership Intelligence
+- Commercial Score
+- Priority Tier
+- ICP Fit
+- Ranking
 
-Planned improvements:
+AI is used after qualification to interpret the result and support commercial execution.
 
-* Configurable partnership criteria
-* Regional partnership benchmarking
-* Portfolio comparison
-* Strategic partner segmentation
-* Partnership risk indicators
-* International channel-partner assessment
+### Integration
 
----
+The platform exports prioritized pipeline information that can be directly consumed by the Adaptive Outreach Intelligence Platform.
 
-## 🚧 In Development
+Typical handoff data includes:
 
-### Global Market Entry Intelligence
+```text
+company_name
+country
+region
+industry
+company_size
+estimated_deal_value_usd
+engagement_signal
+score
+tier
+recommended_action
+score_rationale
+```
 
-A structured decision-support system for evaluating international market-expansion opportunities.
+### Repository
 
-Planned capabilities:
+https://github.com/Eambrosin/lead-qualification-scorer
 
-* Market Attractiveness Assessment
-* Commercial Readiness
-* Market Entry Barriers
-* Regulatory Complexity
-* Partner Dependency
-* Channel Strategy
-* Localization Requirements
-* GTM Recommendations
-* Expansion Risk Assessment
-* Market Prioritization
-* 90-Day Market Entry Plan
+### Live Application
 
-Initial analysis scenarios are expected to include:
-
-* Europe → Brazil
-* Brazil → Europe
-* Brazil → MENA
-* MENA → Europe
-* Europe → LATAM
-
----
-
-## 🔮 Planned
-
-### Cross-Border Commercial Readiness
-
-A framework for evaluating whether an organization is commercially prepared to enter a new international market.
-
-Potential dimensions:
-
-* Product Readiness
-* Pricing Readiness
-* Sales Readiness
-* Localization
-* Distribution
-* Partnerships
-* Regulatory Exposure
-* Operational Capacity
+https://lead-qualification-scorer-eambrosin.streamlit.app/
 
 ---
 
-### B2G Opportunity Intelligence
+## ENGAGE — Adaptive Outreach Intelligence Platform
 
-A future commercial intelligence framework focused on public-sector and government procurement opportunities.
+**Status:** Shipped  
+**Current Release:** v2.0.0
 
-Potential areas:
+A Commercial Intelligence platform designed to transform qualification context into prioritized, multilingual and adaptive commercial outreach.
 
-* Procurement Opportunity Screening
-* Tender Qualification
-* Institutional Mapping
-* B2G Opportunity Prioritization
-* Commercial Readiness
-* Procurement Risk Indicators
+### Core Capabilities
+
+- Standard Outreach Mode
+- Commercial Intelligence Mode
+- Automatic pipeline mode detection
+- Compatibility with Lead Qualification exports
+- Commercial priority classification
+- Adaptive outreach intensity
+- Dynamic cadence strategy
+- Engagement-aware sequencing
+- Score and Tier integration
+- Recommended Action integration
+- Score Rationale preservation
+- Prospecting stage detection
+- Post-Proposal stage detection
+- Country-level communication profiles
+- Multilingual outreach
+- Channel strategy
+- Adaptive Email / WhatsApp sequencing
+- Commercial Decision Support
+- Revenue At Risk visibility
+- Proposal-age risk interpretation
+- Stakeholder-function guidance
+- Executive Outreach Dashboard
+- Adaptive Priority Ranking
+- Deterministic local fallback
+- Optional AI-assisted message generation
+- Evidence-aware outreach guardrails
+- Internal commercial data protection
+
+### Adaptive Cadence Examples
+
+High-touch:
+
+```text
+Day +0 → Day +2 → Day +5 → Day +10
+```
+
+Balanced:
+
+```text
+Day +0 → Day +3 → Day +7 → Day +14
+```
+
+Low-touch:
+
+```text
+Day +0 → Day +7 → Day +21 → Day +35
+```
+
+### Architecture Principle
+
+Commercial strategy is determined before message generation.
+
+The deterministic engine controls:
+
+```text
+Priority
+Intensity
+Cadence
+Channel Strategy
+Commercial Objective
+```
+
+AI may assist with prospect-facing communication but does not control the underlying commercial prioritization.
+
+### Integration
+
+The application can directly consume prioritized CSV exports from the Lead Qualification platform.
+
+This creates the current integrated workflow:
+
+```text
+Lead Qualification
+        ↓
+Commercial Score
+        ↓
+Priority Tier
+        ↓
+Recommended Action
+        ↓
+CSV Export
+        ↓
+Adaptive Outreach Intelligence
+        ↓
+Priority
+        ↓
+Cadence
+        ↓
+Channel
+        ↓
+Commercial Message
+```
+
+### Repository
+
+https://github.com/Eambrosin/outreach-sequence-generator
+
+### Live Application
+
+https://outreach-sequence-generator-7dcmglcxfnmszlodg8lqre.streamlit.app/
 
 ---
 
-### Integrated Commercial Intelligence Dashboard
+## PARTNER — Partnership Opportunity Finder
 
-Long-term objective:
+**Status:** Shipped / Improving
 
-Connect the major systems into a broader commercial intelligence environment.
+A structured Business Development tool for identifying, comparing and prioritizing potential strategic partnership opportunities.
+
+### Current Direction
+
+The platform is intended to support:
+
+- Partnership opportunity identification
+- Strategic-fit assessment
+- Commercial relevance
+- Partnership prioritization
+- Market alignment
+- Collaboration hypotheses
+- Recommended partnership approach
+- Business Development decision support
+
+### Planned Evolution
+
+Future versions should connect Partnership Intelligence with upstream qualification and outreach data.
 
 Potential workflow:
 
-**Market**
+```text
+Qualified Account
+      ↓
+Commercial Engagement
+      ↓
+Partnership Potential
+      ↓
+Strategic Fit
+      ↓
+Partnership Model
+      ↓
+Recommended Approach
+```
 
-↓
+### Repository
 
-**Account**
-
-↓
-
-**Lead**
-
-↓
-
-**Qualification**
-
-↓
-
-**Prioritization**
-
-↓
-
-**Outreach**
-
-↓
-
-**Partnership**
-
-↓
-
-**Expansion**
-
-The objective is not to create a traditional CRM.
-
-The objective is to build a decision-support layer that helps Business Development professionals determine what should happen next.
+https://github.com/Eambrosin/partnership-opportunity-finder
 
 ---
 
-## Product Principles
+# 🔧 Improving
 
-Development across the portfolio follows several principles.
+## Cross-Product Commercial Intelligence
 
-### Commercial Problem First
+The next development phase focuses on making the existing applications operate more naturally as parts of the same ecosystem.
 
-Every feature should address a recognizable commercial or strategic decision.
+### Priority Improvements
 
-### Explainable Intelligence
+- Shared data conventions
+- Common account identifiers
+- Consistent commercial terminology
+- Cleaner CSV handoffs
+- Common scoring context
+- Shared Recommended Action logic
+- Improved interoperability between modules
+- Standardized commercial intelligence outputs
 
-Scores and recommendations should provide understandable reasoning rather than operate as black-box outputs.
-
-### Human Decision-Making
-
-AI supports commercial judgment.
-
-It does not replace human responsibility for strategic decisions.
-
-### Practical Outputs
-
-Systems should produce actionable recommendations rather than generic analysis.
-
-### International Perspective
-
-Frameworks should be adaptable across markets, regions and cross-border commercial environments.
+The objective is to reduce friction when moving an opportunity from one application to another.
 
 ---
 
-## Long-Term Direction
+## Partnership Intelligence v2
 
-The long-term direction of the portfolio is to create an integrated Commercial Intelligence ecosystem capable of supporting the full international Business Development lifecycle:
+Potential next improvements include:
 
-### Identify
+- Configurable partnership criteria
+- Explainable partnership scoring
+- Partnership archetypes
+- Strategic-fit scoring
+- Commercial-fit scoring
+- Geographic-fit scoring
+- Partnership opportunity ranking
+- Recommended engagement strategy
+- Integration with Outreach Intelligence
+- Partnership-specific AI assistance
 
-Where are the opportunities?
+---
 
-### Prioritize
+# 🚧 In Development
 
-Which opportunities deserve resources?
+## EXPAND — Global Market Entry Intelligence
 
-### Engage
+**Status:** In Development
 
-How should those opportunities be developed?
+A structured Commercial Intelligence application designed to support international expansion and market-entry decisions.
 
-### Partner
+The platform is intended to help answer questions such as:
 
-Which organizations can accelerate growth?
+- Which markets deserve deeper investigation?
+- Which markets best match the company's commercial profile?
+- What factors support or weaken market attractiveness?
+- What commercial entry model may be appropriate?
+- What local partnership requirements should be considered?
+- What risks should be investigated before committing resources?
 
-### Expand
+### Planned Evaluation Dimensions
 
-Which markets offer viable international growth opportunities?
+Potential factors include:
 
-The portfolio will evolve incrementally through practical applications, strategic frameworks and real-world commercial use cases.
+```text
+Market Attractiveness
+Commercial Fit
+Regulatory Complexity
+Competitive Intensity
+Local Partnership Need
+Route-to-Market Complexity
+Operational Readiness
+Revenue Potential
+Market Entry Cost
+Strategic Alignment
+```
+
+### Intended Output
+
+The system should eventually provide:
+
+- Market comparison
+- Market prioritization
+- Explainable market-entry score
+- Recommended entry approach
+- Commercial risks
+- Partnership requirements
+- Validation questions
+- Suggested next commercial action
+
+### Intended Workflow
+
+```text
+Company Profile
+      ↓
+Target Markets
+      ↓
+Market Evaluation
+      ↓
+Commercial Fit
+      ↓
+Risk & Complexity
+      ↓
+Market Prioritization
+      ↓
+Entry Strategy
+```
+
+---
+
+# 🗺️ Planned Modules
+
+## IDENTIFY — Opportunity Discovery Intelligence
+
+A future module focused on discovering and structuring new commercial opportunities before formal qualification.
+
+Potential capabilities:
+
+- Target-account discovery
+- Opportunity sourcing
+- Sector filtering
+- Geographic filtering
+- ICP-based prospect identification
+- Early opportunity signals
+- Lead enrichment
+- Initial commercial relevance assessment
+
+Future workflow:
+
+```text
+Market / Sector
+      ↓
+Potential Accounts
+      ↓
+Opportunity Signals
+      ↓
+Candidate Leads
+      ↓
+Lead Qualification
+```
+
+---
+
+## Cross-Border Commercial Readiness
+
+A future assessment tool designed to determine whether a company is operationally and commercially prepared for international expansion.
+
+Potential dimensions:
+
+- Sales readiness
+- Product readiness
+- Pricing readiness
+- Distribution capability
+- Localization requirements
+- Legal and regulatory readiness
+- Commercial resources
+- Partnership readiness
+- International operating capacity
+
+Potential output:
+
+```text
+Ready
+Conditionally Ready
+Requires Preparation
+```
+
+with explainable recommendations rather than a black-box classification.
+
+---
+
+## B2G Opportunity Intelligence
+
+A future Commercial Intelligence module focused on public-sector and institutional opportunities.
+
+Potential capabilities:
+
+- Opportunity qualification
+- Procurement-fit analysis
+- Commercial attractiveness
+- Tender-readiness assessment
+- Qualification criteria
+- Institutional stakeholder mapping
+- Risk and complexity assessment
+- Recommended pursuit strategy
+
+The objective is not to automate legal or procurement judgments, but to help structure early commercial decision-making.
+
+---
+
+## Integrated Commercial Intelligence Dashboard
+
+A future unified interface connecting the different modules of the ecosystem.
+
+Potential architecture:
+
+```text
+Opportunity Discovery
+        ↓
+Lead Qualification
+        ↓
+Revenue Prioritization
+        ↓
+Outreach Intelligence
+        ↓
+Partnership Intelligence
+        ↓
+Market Entry Intelligence
+```
+
+The dashboard could eventually provide:
+
+- Unified opportunity pipeline
+- Account status
+- Commercial Score
+- Priority Tier
+- Outreach status
+- Partnership potential
+- Market-expansion context
+- Recommended next action
+- Commercial risk
+- Opportunity history
+
+---
+
+# 🔄 Future Integrations
+
+Potential integrations include:
+
+```text
+HubSpot
+Salesforce
+Apollo
+Clay
+Google Sheets
+Email workflows
+WhatsApp workflows
+CRM activity data
+Contact enrichment
+Buying signals
+Market intelligence sources
+```
+
+Integrations should be added only when they improve the underlying commercial workflow rather than simply increasing technical complexity.
+
+---
+
+# 📊 Future Analytics
+
+Longer-term analytical capabilities may include:
+
+- Historical opportunity tracking
+- Conversion analytics
+- Score-to-conversion analysis
+- Outreach response rates
+- Cadence performance
+- Channel performance
+- Market performance
+- Partnership conversion
+- Revenue progression
+- Opportunity velocity
+- ICP performance
+- Lost-opportunity analysis
+- Sequence performance
+- Commercial scenario simulation
+
+The objective is to eventually create a feedback loop between commercial execution and future prioritization.
+
+---
+
+# 🧠 Closed-Loop Commercial Intelligence
+
+The longer-term architecture should allow results from later stages to improve earlier decisions.
+
+Example:
+
+```text
+Qualification
+     ↓
+Outreach
+     ↓
+Engagement
+     ↓
+Meeting
+     ↓
+Opportunity
+     ↓
+Partnership / Deal
+     ↓
+Outcome
+     ↓
+Learning
+     ↓
+Improved Qualification
+```
+
+This would move the toolkit from static decision support toward a continuously improving Commercial Intelligence system.
+
+---
+
+# 🤖 AI Architecture Principles
+
+AI is intended to enhance commercial judgment rather than replace structured decision logic.
+
+Across the toolkit:
+
+### Deterministic Logic Should Control
+
+```text
+Scores
+Thresholds
+Priority
+Ranking
+Cadence Logic
+Commercial Rules
+```
+
+### AI Can Support
+
+```text
+Interpretation
+Research Summaries
+Commercial Hypotheses
+Account Briefs
+GTM Recommendations
+Outreach Drafting
+Discovery Questions
+Next-Step Suggestions
+```
+
+AI-generated information should remain evidence-aware.
+
+Unverified information should be expressed as:
+
+- Hypotheses
+- Questions
+- Areas to validate
+
+rather than fabricated facts.
+
+---
+
+# 🌍 Commercial Intelligence Ecosystem Vision
+
+The long-term vision is to create an AI-assisted operating system for international Business Development.
+
+```text
+IDENTIFY
+Find potential commercial opportunities
+
+        ↓
+
+PRIORITIZE
+Determine which opportunities deserve attention
+
+        ↓
+
+ENGAGE
+Select the right cadence, channel and commercial approach
+
+        ↓
+
+PARTNER
+Identify strategic collaboration opportunities
+
+        ↓
+
+EXPAND
+Evaluate and prioritize international markets
+```
+
+The goal is not to automate Business Development.
+
+The goal is to improve the quality, consistency and transparency of commercial decisions.
+
+---
+
+# Current Status
+
+```text
+PRIORITIZE
+Lead Qualification & Revenue Prioritization
+v2.0.0
+✅ SHIPPED
+
+ENGAGE
+Adaptive Outreach Intelligence
+v2.0.0
+✅ SHIPPED
+
+PARTNER
+Partnership Opportunity Finder
+✅ SHIPPED / IMPROVING
+
+EXPAND
+Global Market Entry Intelligence
+🚧 IN DEVELOPMENT
+
+IDENTIFY
+Opportunity Discovery Intelligence
+📋 PLANNED
+
+Cross-Border Commercial Readiness
+📋 PLANNED
+
+B2G Opportunity Intelligence
+📋 PLANNED
+
+Integrated Commercial Intelligence Dashboard
+📋 PLANNED
+```
+
+---
+
+## Guiding Principle
+
+> **Use structured commercial logic to determine what matters, then use AI to help humans understand, communicate and act on that decision.**
+
+---
+
+## Author
+
+**Eduardo Ambrosin**
+
+International Business Development · GTM · Strategic Partnerships · Commercial Intelligence · AI-Assisted Systems
+
+[GitHub](https://github.com/Eambrosin)
+
+[Professional Website](https://www.ambrosinlegaltrade.com/)
+
+[LinkedIn](https://www.linkedin.com/in/eduardoambrosin/)
