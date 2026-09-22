@@ -4,6 +4,12 @@
 
 ### AI-Assisted Commercial Intelligence | Business Development | GTM | Strategic Partnerships | International Expansion
 
+![Commercial Intelligence](https://img.shields.io/badge/Commercial%20Intelligence-Ecosystem-1f6feb)
+![Lead Qualification](https://img.shields.io/badge/PRIORITIZE-v2.0.0-success)
+![Adaptive Outreach](https://img.shields.io/badge/ENGAGE-v2.0.0-success)
+![Partnership Intelligence](https://img.shields.io/badge/PARTNER-Improving-yellow)
+![Market Entry](https://img.shields.io/badge/EXPAND-In%20Development-orange)
+
 A practical portfolio of AI-assisted tools, strategic frameworks and commercial intelligence systems designed to support Business Development, Go-to-Market execution, strategic partnerships and international market expansion.
 
 This repository serves as the central hub connecting a growing ecosystem of applications and frameworks focused on practical commercial decision-making.
