@@ -399,7 +399,9 @@ Entry Strategy
 
 ## IDENTIFY — Opportunity Discovery Intelligence
 
-**Status:** MVP — Code Ready / Deployment Pending
+**Repository:** https://github.com/Eambrosin/opportunity-discovery-intelligence
+
+**Status:** MVP — Standalone Repository / Deployment Pending
 
 A configurable target-account discovery application designed to identify and screen potential accounts before formal lead qualification.
 
