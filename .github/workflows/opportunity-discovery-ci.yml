@@ -28,6 +28,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r opportunity-discovery-intelligence/requirements.txt
 
+      - name: Compile application modules
+        working-directory: opportunity-discovery-intelligence
+        run: |
+          python -m py_compile app.py discovery_engine.py web_discovery.py ai_insights.py
+
       - name: Run discovery-engine tests
         working-directory: opportunity-discovery-intelligence
         run: |
