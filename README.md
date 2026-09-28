@@ -7,7 +7,7 @@
 ![Commercial Intelligence](https://img.shields.io/badge/Commercial%20Intelligence-Ecosystem-1f6feb)
 ![Lead Qualification](https://img.shields.io/badge/PRIORITIZE-v2.0.0-success)
 ![Adaptive Outreach](https://img.shields.io/badge/ENGAGE-v2.0.0-success)
-![Partnership Intelligence](https://img.shields.io/badge/PARTNER-Improving-yellow)
+![Partnership Intelligence](https://img.shields.io/badge/PARTNER-v2.0.0-success)
 ![Market Entry](https://img.shields.io/badge/EXPAND-In%20Development-orange)
 
 A practical portfolio of AI-assisted tools, strategic frameworks and commercial intelligence systems designed to support Business Development, Go-to-Market execution, strategic partnerships and international market expansion.
@@ -105,7 +105,7 @@ The application can directly consume prioritized pipeline exports from the Lead 
 
 ### 🤝 PARTNER — Partnership Opportunity Finder
 
-**Status:** Shipped / Improving
+**Status:** Shipped — v2.0.0
 
 Identifies, scores and prioritizes strategic partnership opportunities.
 
