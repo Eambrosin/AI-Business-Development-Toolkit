@@ -35,7 +35,7 @@ The portfolio is structured around five stages of the Business Development and i
 
 | Stage          | System                    | Commercial Purpose                                           |
 | -------------- | ------------------------- | ------------------------------------------------------------ |
-| **Identify**   | Lead Intelligence         | Identify commercially relevant accounts and opportunities    |
+| **Identify**   | Opportunity Discovery Intelligence | Discover and screen target accounts using market-specific criteria and evidence |
 | **Prioritize** | Revenue Prioritization    | Determine where commercial resources should be allocated     |
 | **Engage**     | Outreach Intelligence     | Structure outreach, follow-up and opportunity development    |
 | **Partner**    | Partnership Intelligence  | Identify and evaluate strategic partners and ecosystems      |
@@ -48,6 +48,34 @@ Together, these systems form an evolving AI-assisted Commercial Intelligence eco
 ## Current Product Status
 
 The toolkit is evolving from a collection of Business Development experiments into an integrated Commercial Intelligence ecosystem.
+
+### 🔎 IDENTIFY — Opportunity Discovery Intelligence
+
+**Status:** MVP — Code Ready / Deployment Pending
+
+A configurable target-account discovery application for adapting lead generation to a client-specific market profile.
+
+Core capabilities include:
+
+- Target industry configuration
+- Country and region targeting
+- Business-model filters
+- Required and excluded keywords
+- Company-size preferences
+- Sample, CSV and optional public-web discovery modes
+- Explainable Discovery Score
+- Separate Confidence Score
+- Evidence URLs and source snippets
+- Unknown-information tracking
+- Recommended next actions
+- Qualification handoff template
+- Optional evidence-aware AI research brief
+
+The application intentionally separates **discovery** from **formal qualification**. Unknown information is surfaced for validation instead of being silently treated as fact.
+
+[View Project](opportunity-discovery-intelligence/)
+
+---
 
 ### ✅ PRIORITIZE — Lead Qualification & Revenue Prioritization
 
@@ -125,6 +153,7 @@ Designed to support structured international market-entry decisions using commer
 
 ```text
 IDENTIFY
+Opportunity Discovery Intelligence
     ↓
 PRIORITIZE
 Lead Qualification & Revenue Prioritization
