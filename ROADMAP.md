@@ -399,32 +399,55 @@ Entry Strategy
 
 ## IDENTIFY — Opportunity Discovery Intelligence
 
-A future module focused on discovering and structuring new commercial opportunities before formal qualification.
+**Status:** MVP — Code Ready / Deployment Pending
 
-Potential capabilities:
+A configurable target-account discovery application designed to identify and screen potential accounts before formal lead qualification.
 
-- Target-account discovery
-- Opportunity sourcing
-- Sector filtering
-- Geographic filtering
-- ICP-based prospect identification
-- Early opportunity signals
-- Lead enrichment
-- Initial commercial relevance assessment
+### Current MVP Capabilities
 
-Future workflow:
+- target industry
+- target countries and regions
+- preferred business models
+- required and excluded keywords
+- company-size preferences
+- target commercial functions
+- sample dataset mode
+- CSV company-universe screening
+- optional Tavily public-web discovery
+- explainable Discovery Score
+- separate Confidence Score
+- evidence URLs and snippets
+- unknown-information tracking
+- deterministic recommended actions
+- qualification handoff template
+- optional evidence-aware AI brief
+
+### Current Workflow
 
 ```text
-Market / Sector
+Target Market Profile
       ↓
-Potential Accounts
+Candidate Discovery
       ↓
-Opportunity Signals
+Evidence Collection
       ↓
-Candidate Leads
+Discovery Score + Confidence
+      ↓
+Research / Validate
       ↓
 Lead Qualification
 ```
+
+### Next Improvements
+
+- additional discovery providers
+- website enrichment
+- verified company-size enrichment
+- stronger geography and industry normalization
+- saved target-market presets
+- direct cross-product handoff
+- CRM integrations
+- explicit provenance for buying-signal enrichment
 
 ---
 
@@ -686,7 +709,7 @@ Global Market Entry Intelligence
 
 IDENTIFY
 Opportunity Discovery Intelligence
-📋 PLANNED
+🧪 MVP / DEPLOYMENT PENDING
 
 Cross-Border Commercial Readiness
 📋 PLANNED
