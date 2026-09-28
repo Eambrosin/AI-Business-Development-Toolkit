@@ -137,6 +137,8 @@ Partnership Opportunity Intelligence
     ↓
 EXPAND
 Global Market Entry Intelligence
+```
+
 ---
 
 ## Featured Applications
@@ -210,7 +212,7 @@ The application combines commercial intelligence with AI-assisted communication 
 
 **Role in the ecosystem:** `Partner`
 
-AI-assisted platform for identifying, evaluating and prioritizing strategic partnership opportunities.
+Explainable decision-support platform for identifying, evaluating and prioritizing strategic partnership opportunities.
 
 #### Core Capabilities
 
@@ -220,7 +222,6 @@ AI-assisted platform for identifying, evaluating and prioritizing strategic part
 * Regional Expansion Dashboard
 * Partner Portfolio Analysis
 * Executive Recommendation Center
-* AI Partnership Insights
 * Partnership Intelligence Workspace
 
 #### Business Problem
