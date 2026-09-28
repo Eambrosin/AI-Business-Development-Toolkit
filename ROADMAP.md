@@ -292,20 +292,39 @@ The objective is to reduce friction when moving an opportunity from one applicat
 
 ---
 
-## Partnership Intelligence v2
+## Partnership Intelligence — Current & Next
 
-Potential next improvements include:
+The Partnership Opportunity Finder has already moved beyond basic partner ranking into a configurable and explainable partnership-intelligence workflow.
+
+### Current Capabilities
 
 - Configurable partnership criteria
-- Explainable partnership scoring
+- Explainable weighted scoring
+- Strategic preference configuration
 - Partnership archetypes
-- Strategic-fit scoring
-- Commercial-fit scoring
-- Geographic-fit scoring
-- Partnership opportunity ranking
-- Recommended engagement strategy
-- Integration with Outreach Intelligence
-- Partnership-specific AI assistance
+- Fit tiers and commercial priority
+- Execution-feasibility assessment
+- Recommended partnership models
+- Recommended next actions
+- Regional and portfolio analytics
+- Opportunity-level workspace
+- Partnership thesis generation
+- Expansion-potential analysis
+- Outreach handoff
+- Downloadable opportunity briefs
+- Automated unit tests and GitHub Actions CI
+
+### Next Improvements
+
+- CRM integrations
+- automatic company enrichment
+- relationship mapping
+- partnership pipeline history
+- score evolution over time
+- account-level research
+- multilingual outreach generation
+- reusable scoring templates
+- direct cross-product handoff with Outreach Intelligence
 
 ---
 
