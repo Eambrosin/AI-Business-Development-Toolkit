@@ -51,7 +51,7 @@ The toolkit is evolving from a collection of Business Development experiments in
 
 ### 🔎 IDENTIFY — Opportunity Discovery Intelligence
 
-**Status:** MVP — Code Ready / Deployment Pending
+**Status:** MVP — Standalone Repository / Deployment Pending
 
 A configurable target-account discovery application for adapting lead generation to a client-specific market profile.
 
@@ -73,7 +73,7 @@ Core capabilities include:
 
 The application intentionally separates **discovery** from **formal qualification**. Unknown information is surfaced for validation instead of being silently treated as fact.
 
-[View Project](opportunity-discovery-intelligence/)
+[View Repository](https://github.com/Eambrosin/opportunity-discovery-intelligence)
 
 ---
 
