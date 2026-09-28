@@ -228,7 +228,7 @@ https://outreach-sequence-generator-7dcmglcxfnmszlodg8lqre.streamlit.app/
 
 ## PARTNER — Partnership Opportunity Finder
 
-**Status:** Shipped / Improving
+**Status:** Shipped
 
 A structured Business Development tool for identifying, comparing and prioritizing potential strategic partnership opportunities.
 
@@ -677,7 +677,8 @@ v2.0.0
 
 PARTNER
 Partnership Opportunity Finder
-✅ SHIPPED / IMPROVING
+v2.0.0
+✅ SHIPPED
 
 EXPAND
 Global Market Entry Intelligence
