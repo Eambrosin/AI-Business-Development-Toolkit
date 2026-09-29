@@ -31,7 +31,7 @@ The objective is to use AI, structured data and commercial strategy to answer pr
 
 The portfolio is structured around five stages of the Business Development and international growth lifecycle:
 
-### Identify → Prioritize → Engage → Partner → Expand
+### Identify → Prioritize → Engage, with a parallel Partner track feeding Expand
 
 | Stage          | System                    | Commercial Purpose                                           |
 | -------------- | ------------------------- | ------------------------------------------------------------ |
@@ -51,12 +51,13 @@ The toolkit is evolving from a collection of Business Development experiments in
 
 ### 🔎 IDENTIFY — Opportunity Discovery Intelligence
 
-**Status:** MVP — Standalone Repository / Deployment Pending
+**Status:** Live standalone application — v1.0
 
 A configurable target-account discovery application for adapting lead generation to a client-specific market profile.
 
 Core capabilities include:
 
+- Multi-segment market profiles plus fully custom configuration
 - Target industry configuration
 - Country and region targeting
 - Business-model filters
@@ -70,6 +71,8 @@ Core capabilities include:
 - Recommended next actions
 - Qualification handoff template
 - Optional evidence-aware AI research brief
+- Public LinkedIn contact intelligence through indexed web results
+- Direct handoffs to PRIORITIZE and ENGAGE
 
 The application intentionally separates **discovery** from **formal qualification**. Unknown information is surfaced for validation instead of being silently treated as fact.
 
@@ -131,7 +134,7 @@ The application can directly consume prioritized pipeline exports from the Lead 
 
 ---
 
-### 🤝 PARTNER — Partnership Opportunity Finder
+### 🤝 PARTNER — Partnership Intelligence
 
 **Status:** Shipped — v2.0.0
 
@@ -149,24 +152,47 @@ Designed to support structured international market-entry decisions using commer
 
 ---
 
-## Integrated Commercial Intelligence Flow
+## Integrated Commercial Intelligence Architecture
+
+The portfolio now uses **two coordinated commercial tracks** rather than forcing every opportunity through one linear funnel.
 
 ```text
+ACCOUNT DEVELOPMENT
+
 IDENTIFY
 Opportunity Discovery Intelligence
-    ↓
+        ↓
 PRIORITIZE
 Lead Qualification & Revenue Prioritization
-    ↓
+        ↓
 ENGAGE
 Adaptive Outreach Intelligence
-    ↓
+
+
+PARTNERSHIP DEVELOPMENT
+
+IDENTIFY / EXISTING PARTNER UNIVERSE
+        ↓
 PARTNER
-Partnership Opportunity Intelligence
-    ↓
+Partnership Intelligence
+        ↓
+ENGAGE
+Adaptive Partner Outreach
+
+
+BOTH TRACKS
+        ↓
 EXPAND
-Global Market Entry Intelligence
+Market / Territory Intelligence
 ```
+
+The applications exchange portable CSV handoffs with shared metadata such as `schema_version`, `source_stage` and `market_profile_id`.
+
+**Shared contracts**
+- [Commercial Intelligence Data Contract v1](contracts/commercial-intelligence-data-contract-v1.md)
+- [Market Profile Registry v1](contracts/market-profile-registry-v1.md)
+
+Canonical market profiles currently include Renewable Energy, Agribusiness, Logistics & Trade, Fintech, Real Estate, Government / Public Sector and Medical Aesthetics, while preserving a fully custom mode.
 
 ---
 
