@@ -233,3 +233,24 @@ decision_maker_relevance_score
 ```
 
 A public-profile match can be stale. `decision_maker_verified` therefore means the current evidence strongly matches both target role and account context; it does not replace human verification of current employment or authority.
+
+
+## Qualification readiness fields
+
+IDENTIFY may preserve a separate research-readiness layer:
+
+```text
+qualification_readiness_score
+qualification_readiness_status
+qualification_readiness_evidence
+```
+
+Allowed statuses:
+
+```text
+Ready for Qualification
+Enrich Before Qualification
+Research Required
+```
+
+Qualification readiness measures evidence completeness before formal qualification. It must not be presented as opportunity fit, win probability, revenue potential or buying intent.
