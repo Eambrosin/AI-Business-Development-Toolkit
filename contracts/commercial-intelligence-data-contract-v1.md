@@ -131,3 +131,59 @@ Market Entry / Territory Intelligence
 6. **Market profiles configure; engines stay generic:** sector-specific logic belongs in a profile layer whenever possible.
 7. **Human verification before outreach:** public-source contact evidence can be stale.
 8. **Version the contract:** breaking field changes require a new schema version.
+
+
+## Territory fields
+
+When a market is managed as a geographic sales territory, applications may preserve:
+
+```text
+territory_profile_id
+vendor_profile_id
+territory_region
+territory_province
+territory_city
+territory_cluster_id
+territory_location_confidence
+territory_location_basis
+account_opportunity_score
+territory_status
+professional_setting
+observed_technology_axes
+technology_evidence
+technology_validation_questions
+contact_readiness_score
+contact_status
+```
+
+### Territory semantics
+
+`territory_location_basis` must distinguish between:
+
+- source-observed city
+- source-observed province
+- source-observed region
+- search-scope inference that still requires verification
+- location not established
+
+`Research Coverage` describes the completeness of the current discovery dataset. It must not be presented as market share or total-market coverage.
+
+`account_opportunity_score` is a territory prioritization score, not a probability of sale.
+
+`contact_readiness_score` measures public contact-evidence readiness for commercial execution, not the likelihood that the person will respond or buy.
+
+### Field execution statuses
+
+Allowed workflow statuses can include:
+
+```text
+Find Decision Maker
+Research & Enrich
+Eligibility Validation
+Ready for Outreach
+Ready for Field Visit
+Research Contact
+Verify Contact
+```
+
+These statuses support workflow decisions and must not be represented as regulatory, clinical or purchasing conclusions.
