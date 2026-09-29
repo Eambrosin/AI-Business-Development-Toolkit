@@ -78,6 +78,14 @@ The application intentionally separates **discovery** from **formal qualificatio
 
 [View Repository](https://github.com/Eambrosin/opportunity-discovery-intelligence)
 
+
+#### North Italy Territory Intelligence
+
+Medical Aesthetics now includes a territory layer for **Lombardia · Veneto · Trentino-Alto Adige**, with province/city clusters, technology evidence, public-contact discovery, Account Opportunity Score, Contact Readiness and territory execution handoffs.
+
+A DELEO-specific commercial profile can be activated as an optional evidence/discussion layer without changing the generic discovery engine.
+
+
 ---
 
 ### ✅ PRIORITIZE — Lead Qualification & Revenue Prioritization
