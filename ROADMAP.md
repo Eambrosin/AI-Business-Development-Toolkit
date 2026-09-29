@@ -767,3 +767,18 @@ Current shared market profiles:
 - Government / Public Sector
 - Medical Aesthetics
 - Custom
+
+
+### Territory Execution — shipped
+
+The North Italy Medical Aesthetics territory workflow now includes:
+
+- province/city commercial clusters
+- Account Opportunity Score
+- technology-evidence landscape
+- Contact Readiness Score
+- Ready for Outreach / Ready for Field Visit states
+- bilingual Bolzano / Bozen language verification
+- clustered Field Day Planner in ENGAGE
+
+The Field Day Planner is intentionally **not** presented as route optimization. A future routing-provider integration can add travel-time and sequence optimization.
