@@ -401,7 +401,7 @@ Entry Strategy
 
 **Repository:** https://github.com/Eambrosin/opportunity-discovery-intelligence
 
-**Status:** MVP — Standalone Repository / Deployment Pending
+**Status:** Live standalone application — v1.0
 
 A configurable target-account discovery application designed to identify and screen potential accounts before formal lead qualification.
 
@@ -711,7 +711,7 @@ Global Market Entry Intelligence
 
 IDENTIFY
 Opportunity Discovery Intelligence
-🧪 MVP / DEPLOYMENT PENDING
+✅ LIVE — v1.0
 
 Cross-Border Commercial Readiness
 📋 PLANNED
@@ -742,3 +742,28 @@ International Business Development · GTM · Strategic Partnerships · Commercia
 [Professional Website](https://www.ambrosinlegaltrade.com/)
 
 [LinkedIn](https://www.linkedin.com/in/eduardoambrosin/)
+
+
+---
+
+## Shared Integration Layer
+
+The standalone applications now exchange versioned handoff metadata rather than relying on implicit file conventions.
+
+- Commercial Intelligence Data Contract v1
+- Market Profile Registry v1
+- Stable market profile IDs across IDENTIFY, PRIORITIZE, ENGAGE and PARTNER
+- Explicit source-stage metadata
+- Portable CSV handoffs
+- Independent app deployment with loose coupling
+
+Current shared market profiles:
+
+- Renewable Energy
+- Agribusiness
+- Logistics & Trade
+- Fintech
+- Real Estate
+- Government / Public Sector
+- Medical Aesthetics
+- Custom
