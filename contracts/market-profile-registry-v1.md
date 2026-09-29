@@ -74,3 +74,36 @@ Profiles inform:
 - strategic-goal interpretation
 
 Partnership scoring remains deterministic and explainable.
+
+
+## Territory profiles
+
+Territory profiles are a separate configuration layer from market profiles.
+
+Current profile:
+
+```text
+territory_profile_id: it_north_medical_aesthetics
+market_profile_id: medical_aesthetics
+country: Italy
+regions:
+  - Lombardia
+  - Veneto
+  - Trentino-Alto Adige
+```
+
+The current territory profile supports province/city commercial clusters and bilingual Italian/German search context for Bolzano / Bozen and Südtirol.
+
+## Vendor / commercial profiles
+
+Vendor profiles are optional commercial-context layers.
+
+Current profile:
+
+```text
+vendor_profile_id: deleo_north_italy
+market_profile_id: medical_aesthetics
+territory_profile_id: it_north_medical_aesthetics
+```
+
+Vendor profiles can contribute discussion themes, technology evidence terms and support-model context. They must not automatically decide product suitability, professional eligibility or clinical appropriateness.
