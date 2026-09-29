@@ -90,6 +90,7 @@ partnership_archetype
 ```text
 IDENTIFY
 Opportunity Discovery
+  + selective Account Enrichment
         ↓
 PRIORITIZE
 Lead Qualification
@@ -187,3 +188,48 @@ Verify Contact
 ```
 
 These statuses support workflow decisions and must not be represented as regulatory, clinical or purchasing conclusions.
+
+
+## Account enrichment fields
+
+IDENTIFY may preserve public account-enrichment evidence before PRIORITIZE:
+
+```text
+account_website
+website_evidence_status
+website_match_score
+public_phone
+public_email
+public_address
+contact_channel_status
+enrichment_fit_signals
+account_data_completeness
+enrichment_status
+enrichment_source_url
+enrichment_source_urls
+enrichment_evidence
+```
+
+### Enrichment semantics
+
+`account_data_completeness` measures how much public account evidence was found in the enrichment step. It is **not** a probability of purchase or sales conversion.
+
+`website_evidence_status` can describe a high-confidence direct site, probable direct site or a website candidate that still requires verification.
+
+Public phone, email and address fields must remain traceable to public evidence and should be verified before operational use.
+
+## Decision-maker evidence fields
+
+When public professional-profile research is run, apps may preserve:
+
+```text
+decision_maker_candidate_found
+decision_maker_verified
+decision_maker_name
+decision_maker_headline
+decision_maker_linkedin
+decision_maker_confidence
+decision_maker_relevance_score
+```
+
+A public-profile match can be stale. `decision_maker_verified` therefore means the current evidence strongly matches both target role and account context; it does not replace human verification of current employment or authority.
