@@ -72,6 +72,8 @@ Core capabilities include:
 - Qualification handoff template
 - Optional evidence-aware AI research brief
 - Public LinkedIn contact intelligence through indexed web results
+- Selective Account Enrichment for website, public business contacts, address and fit evidence
+- Account Data Completeness with source-preserving evidence
 - Direct handoffs to PRIORITIZE and ENGAGE
 
 The application intentionally separates **discovery** from **formal qualification**. Unknown information is surfaced for validation instead of being silently treated as fact.
@@ -81,7 +83,7 @@ The application intentionally separates **discovery** from **formal qualificatio
 
 #### North Italy Territory Intelligence
 
-Medical Aesthetics now includes a territory layer for **Lombardia · Veneto · Trentino-Alto Adige**, with province/city clusters, technology evidence, public-contact discovery, Account Opportunity Score, Contact Readiness and territory execution handoffs.
+Medical Aesthetics now includes a territory layer for **Lombardia · Veneto · Trentino-Alto Adige**, with province/city clusters, technology evidence, selective account enrichment, public-contact discovery, Account Opportunity Score, Contact Readiness and territory execution handoffs.
 
 A DELEO-specific commercial profile can be activated as an optional evidence/discussion layer without changing the generic discovery engine.
 
@@ -169,6 +171,7 @@ ACCOUNT DEVELOPMENT
 
 IDENTIFY
 Opportunity Discovery Intelligence
++ Account Enrichment
         ↓
 PRIORITIZE
 Lead Qualification & Revenue Prioritization
