@@ -5,10 +5,11 @@
 ### AI-Assisted Commercial Intelligence | Business Development | GTM | Strategic Partnerships | International Expansion
 
 ![Commercial Intelligence](https://img.shields.io/badge/Commercial%20Intelligence-Ecosystem-1f6feb)
+![Discovery](https://img.shields.io/badge/IDENTIFY-Live-success)
 ![Lead Qualification](https://img.shields.io/badge/PRIORITIZE-v2.0.0-success)
-![Adaptive Outreach](https://img.shields.io/badge/ENGAGE-v2.0.0-success)
+![Adaptive Outreach](https://img.shields.io/badge/ENGAGE-v2.1.0-success)
 ![Partnership Intelligence](https://img.shields.io/badge/PARTNER-v2.0.0-success)
-![Market Entry](https://img.shields.io/badge/EXPAND-In%20Development-orange)
+![Market Expansion](https://img.shields.io/badge/ROADMAP-Market%20Expansion-orange)
 
 A practical portfolio of AI-assisted tools, strategic frameworks and commercial intelligence systems designed to support Business Development, Go-to-Market execution, strategic partnerships and international market expansion.
 
@@ -31,7 +32,7 @@ The objective is to use AI, structured data and commercial strategy to answer pr
 
 The portfolio is structured around five stages of the Business Development and international growth lifecycle:
 
-### Identify → Prioritize → Engage, with a parallel Partner track feeding Expand
+### Identify → Prioritize → Engage, with a parallel Partner track
 
 | Stage          | System                    | Commercial Purpose                                           |
 | -------------- | ------------------------- | ------------------------------------------------------------ |
@@ -39,7 +40,7 @@ The portfolio is structured around five stages of the Business Development and i
 | **Prioritize** | Revenue Prioritization    | Determine where commercial resources should be allocated     |
 | **Engage**     | Outreach Intelligence     | Structure outreach, follow-up and opportunity development    |
 | **Partner**    | Partnership Intelligence  | Identify and evaluate strategic partners and ecosystems      |
-| **Expand**     | Market Entry Intelligence | Evaluate and structure international expansion opportunities |
+| **Roadmap**    | Market Expansion Intelligence | Future layer for structured international expansion decisions |
 
 Together, these systems form an evolving AI-assisted Commercial Intelligence ecosystem.
 
@@ -79,6 +80,10 @@ Core capabilities include:
 The application intentionally separates **discovery** from **formal qualification**. Unknown information is surfaced for validation instead of being silently treated as fact.
 
 [View Repository](https://github.com/Eambrosin/opportunity-discovery-intelligence)
+
+[Launch Application](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/)
+
+> **Demo affiliation note:** the DELEO commercial-program preset is a portfolio demonstration built from publicly available information. The project is not affiliated with, sponsored by or endorsed by DELEO.
 
 
 #### North Italy Territory Intelligence
@@ -154,11 +159,11 @@ Identifies, scores and prioritizes strategic partnership opportunities.
 
 ---
 
-### 🌍 EXPAND — Global Market Entry Intelligence
+### 🗺️ ROADMAP — Market Expansion Intelligence
 
-**Status:** In Development
+**Status:** Roadmap / not presented as a shipped product
 
-Designed to support structured international market-entry decisions using commercial, regulatory and strategic expansion criteria.
+A future layer for structured international market-entry decisions. It remains outside the shipped product set until it reaches the same implementation, testing and demo standard as IDENTIFY, PRIORITIZE, ENGAGE and PARTNER.
 
 ---
 
@@ -191,10 +196,9 @@ ENGAGE
 Adaptive Partner Outreach
 
 
-BOTH TRACKS
+FUTURE ROADMAP
         ↓
-EXPAND
-Market / Territory Intelligence
+MARKET EXPANSION INTELLIGENCE
 ```
 
 The applications exchange portable CSV handoffs with shared metadata such as `schema_version`, `source_stage` and `market_profile_id`.
