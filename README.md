@@ -145,7 +145,7 @@ The application can directly consume prioritized pipeline exports from the Lead 
 
 [View Repository](https://github.com/Eambrosin/outreach-sequence-generator)
 
-[Launch Application](https://outreach-sequence-generator-7dcmglcxfnmszlodg8lqre.streamlit.app/)
+[Launch Application](https://outreach-sequence-generator-eambrosin.streamlit.app/)
 
 ---
 
@@ -270,7 +270,7 @@ The application combines commercial intelligence with AI-assisted communication 
 
 #### Live Application
 
-[Launch Outreach Intelligence](https://outreach-sequence-generator-7dcmglcxfnmszlodg8lqre.streamlit.app/)
+[Launch Outreach Intelligence](https://outreach-sequence-generator-eambrosin.streamlit.app/)
 
 #### Repository
 
