@@ -59,7 +59,7 @@ Each layer has a specific commercial purpose. The system does not force every op
 
 | Layer | Application | Version | Commercial Purpose | Live |
 |---|---|---:|---|---|
-| **IDENTIFY** | [Opportunity Discovery Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | v1.0.0 | Discover and screen target accounts using public evidence and market-specific criteria | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
+| **IDENTIFY** | [Opportunity Discovery Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | v1.0.0 | Discover and screen target accounts using public evidence and sector-specific criteria | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
 | **PRIORITIZE** | [Lead Qualification & Revenue Prioritization](https://github.com/Eambrosin/lead-qualification-scorer) | v2.0.0 | Allocate attention using configurable ICP and explainable commercial scoring | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
 | **ENGAGE** | [Adaptive Outreach Intelligence](https://github.com/Eambrosin/outreach-sequence-generator) | v2.1.0 | Convert qualification context into channel-aware, multilingual outreach | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
 | **PARTNER** | [Partnership Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | v2.0.0 | Evaluate strategic fit, market access and execution feasibility | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
@@ -72,7 +72,9 @@ Each layer has a specific commercial purpose. The system does not force every op
 
 Core capabilities include:
 
-- configurable target-market profiles
+- configurable, sector-adaptive target-market profiles
+- photovoltaic C&I end-customer discovery
+- Medicina Estetica opportunity discovery
 - public-web discovery
 - explainable candidate ranking
 - Account Opportunity
@@ -81,6 +83,7 @@ Core capabilities include:
 - public-contact validation
 - public LinkedIn profile discovery
 - territory intelligence
+- sector-specific operational / technology evidence
 - Sales Intelligence
 - qualification questions and evidence gaps
 - direct handoffs to PRIORITIZE and ENGAGE
