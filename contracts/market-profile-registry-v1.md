@@ -4,7 +4,8 @@ The portfolio uses stable `market_profile_id` values so the same commercial segm
 
 | Profile ID | Display Segment | Typical Use |
 |---|---|---|
-| `renewable_energy` | Renewable Energy | Distributors, EPCs, energy solutions |
+| `photovoltaic_energy_consumers` | Fotovoltaico — High-Energy C&I | Energy-consuming commercial / industrial end customers |
+| `renewable_energy` | Renewable Energy | Legacy / generic renewable-energy compatibility |
 | `agribusiness` | Agribusiness | Importers, distributors, processors, traders |
 | `logistics_trade` | Logistics & Trade | Freight, customs, shipping, trade services |
 | `fintech` | Fintech | Payments, platforms, partnership-led growth |
@@ -12,6 +13,16 @@ The portfolio uses stable `market_profile_id` values so the same commercial segm
 | `government_public_sector` | Government / Public Sector | Procurement, institutional and B2G opportunities |
 | `medical_aesthetics` | Medical Aesthetics | Clinics, physicians, dermatology, plastic surgery, eligible aesthetic professionals |
 | `custom` | Custom | User-defined market profile |
+
+## Photovoltaic C&I safeguards
+
+The `photovoltaic_energy_consumers` profile is designed to discover potential **end customers**, not photovoltaic suppliers.
+
+Typical public signals include industrial production, refrigeration, cold storage, logistics, GDO, hospitality, healthcare, data centers and other operationally energy-intensive activities.
+
+Installer, distributor, wholesaler and photovoltaic EPC signals are treated as non-target evidence.
+
+A discovery match does **not** establish verified electricity consumption or technical feasibility. Load profile, available surface, self-consumption potential, grid constraints, investment timing and technical design remain qualification questions.
 
 ## Medical Aesthetics safeguards
 
