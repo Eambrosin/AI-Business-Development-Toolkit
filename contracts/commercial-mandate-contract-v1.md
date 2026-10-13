@@ -17,6 +17,7 @@ mandate_name
 mandate_status
 mandate_client
 mandate_corridor
+mandate_counterparty_focus
 mandate_origin_market
 mandate_target_market
 mandate_product
@@ -59,6 +60,9 @@ Example Manufacturer
 
 mandate_corridor:
 Italy → Brazil
+
+mandate_counterparty_focus:
+Buyers + Partners
 
 mandate_origin_market:
 Italy
