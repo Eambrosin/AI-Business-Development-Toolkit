@@ -24,6 +24,10 @@ The portfolio combines deterministic commercial logic, public evidence, portable
 The toolkit uses two coordinated commercial tracks.
 
 ```text
+COMMERCIAL MANDATE
+Client · Corridor · Product · Objective · Buyers / Partners · Route to Market
+        ↓
+
 ACCOUNT DEVELOPMENT
 
 IDENTIFY
@@ -55,14 +59,43 @@ Each layer has a specific commercial purpose. The system does not force every op
 
 ---
 
+## Commercial Mandate Layer
+
+The portfolio now shares a portable **Commercial Mandate** across the shipped applications.
+
+The mandate can preserve:
+
+- represented company / client
+- origin → target commercial corridor
+- product / solution
+- commercial objective
+- buyer vs partner focus
+- target buyer and partner types
+- route-to-market hypothesis
+- value proposition
+- HS / CN / NCM references where available
+- target territories and working languages
+- success criteria
+
+For cross-border work, the workflow can also preserve **Trade & Market Entry Feasibility** verification states covering tariff scenarios, preferential treatment, Ex-Tarifário relevance, rules of origin, import requirements, technical requirements and after-sales needs.
+
+These states organize commercial execution; they are not automatic customs, legal, tariff or technical conclusions.
+
+**Contracts:**
+- [Commercial Mandate Contract v1](contracts/commercial-mandate-contract-v1.md)
+- [Trade & Market Entry Feasibility Contract v1](contracts/trade-feasibility-contract-v1.md)
+- [Commercial Intelligence Data Contract v1](contracts/commercial-intelligence-data-contract-v1.md)
+
+---
+
 ## Current Applications
 
 | Layer | Application | Version | Commercial Purpose | Live |
 |---|---|---:|---|---|
 | **IDENTIFY** | [Opportunity Discovery Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | v1.0.0 | Discover and screen target accounts using public evidence and sector-specific criteria | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
-| **PRIORITIZE** | [Lead Qualification & Revenue Prioritization](https://github.com/Eambrosin/lead-qualification-scorer) | v2.0.0 | Allocate attention using configurable ICP and explainable commercial scoring | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
-| **ENGAGE** | [Adaptive Outreach Intelligence](https://github.com/Eambrosin/outreach-sequence-generator) | v2.1.0 | Convert qualification context into channel-aware, multilingual outreach | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
-| **PARTNER** | [Partnership Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | v2.0.0 | Evaluate strategic fit, market access and execution feasibility | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
+| **PRIORITIZE** | [Lead Qualification & Revenue Prioritization](https://github.com/Eambrosin/lead-qualification-scorer) | v2.0.0 | Qualify buyers / partners and allocate attention using explainable commercial scoring | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
+| **ENGAGE** | [Adaptive Outreach Intelligence](https://github.com/Eambrosin/outreach-sequence-generator) | v2.1.0 | Convert mandate context into outreach, qualified dialogue, follow-up and opportunity execution | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
+| **PARTNER** | [Partnership Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | v2.0.0 | Evaluate route-to-market fit, market access, service capability and execution feasibility | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
 
 ---
 
