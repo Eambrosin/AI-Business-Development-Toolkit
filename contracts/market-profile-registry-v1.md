@@ -5,6 +5,8 @@ The portfolio uses stable `market_profile_id` values so the same commercial segm
 | Profile ID | Display Segment | Typical Use |
 |---|---|---|
 | `photovoltaic_energy_consumers` | Fotovoltaico — High-Energy C&I | Energy-consuming commercial / industrial end customers |
+| `industrial_machinery_brazil` | Machinery & Equipment — Brazil | Brazilian industrial end buyers; partner search can be activated by mandate |
+| `specialty_coffee_europe` | Specialty Coffee — Europe | European importers, roasters and green-coffee buyers |
 | `renewable_energy` | Renewable Energy | Legacy / generic renewable-energy compatibility |
 | `agribusiness` | Agribusiness | Importers, distributors, processors, traders |
 | `logistics_trade` | Logistics & Trade | Freight, customs, shipping, trade services |
