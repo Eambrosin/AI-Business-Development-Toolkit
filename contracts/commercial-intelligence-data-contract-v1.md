@@ -60,6 +60,28 @@ The mandate is shared context. It must not be overwritten by account-level scori
 
 See [Commercial Mandate Contract v1](commercial-mandate-contract-v1.md).
 
+## Trade feasibility fields
+
+Where a mandate includes cross-border market-entry or import questions, apps may preserve:
+
+```text
+trade_feasibility_schema_version
+trade_feasibility_status
+trade_tariff_scenario_status
+trade_preferential_treatment_status
+trade_ex_tarifario_status
+trade_rules_of_origin_status
+trade_import_requirements_status
+trade_technical_requirements_status
+trade_after_sales_status
+trade_feasibility_notes
+trade_specialist_validation_notes
+```
+
+These fields describe **verification state**, not automatic legal, customs, tariff or technical conclusions.
+
+See [Trade & Market Entry Feasibility Contract v1](trade-feasibility-contract-v1.md).
+
 ## Account fields
 
 Common account-level fields include:
