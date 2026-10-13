@@ -11,10 +11,14 @@ The objective is **integration without tight coupling**: every app remains indep
 | `schema_version` | Version of the shared handoff contract |
 | `source_stage` | Stage that produced the current export: IDENTIFY, PRIORITIZE, ENGAGE or PARTNER |
 | `market_profile_id` | Stable market-segment identifier shared across apps |
+| `mandate_id` | Optional commercial-mandate identifier |
+| `mandate_name` | Human-readable mandate / project name |
+| `mandate_corridor` | Origin → target commercial corridor |
 
 Current canonical profile IDs:
 
-- `renewable_energy`
+- `photovoltaic_energy_consumers`
+- `renewable_energy` (legacy / generic compatibility)
 - `agribusiness`
 - `logistics_trade`
 - `fintech`
@@ -22,6 +26,39 @@ Current canonical profile IDs:
 - `government_public_sector`
 - `medical_aesthetics`
 - `custom`
+
+## Commercial mandate fields
+
+When a workflow is executed inside a defined client / market-entry mandate, apps should preserve:
+
+```text
+mandate_schema_version
+mandate_id
+mandate_name
+mandate_status
+mandate_client
+mandate_corridor
+mandate_origin_market
+mandate_target_market
+mandate_product
+mandate_product_category
+mandate_commercial_objective
+mandate_target_buyer_types
+mandate_target_partner_types
+mandate_route_to_market
+mandate_value_proposition
+mandate_known_constraints
+mandate_hs_code
+mandate_cn_code
+mandate_ncm_code
+mandate_target_territories
+mandate_working_languages
+mandate_success_criteria
+```
+
+The mandate is shared context. It must not be overwritten by account-level scoring.
+
+See [Commercial Mandate Contract v1](commercial-mandate-contract-v1.md).
 
 ## Account fields
 
@@ -113,14 +150,22 @@ Adaptive Partner Outreach
 
 Partnership analysis is therefore a **parallel commercial track**, not a mandatory downstream step for every sales lead.
 
-### Expansion layer
+### Mandate execution layer
 
 ```text
-Account + Partnership + Market Evidence
+COMMERCIAL MANDATE
         ↓
-EXPAND
-Market Entry / Territory Intelligence
+IDENTIFY
+Buyers / Partner Universe
+        ↓
+PRIORITIZE and/or PARTNER
+        ↓
+ENGAGE
+        ↓
+Qualified Dialogue / Opportunity
 ```
+
+Market-expansion intelligence remains a roadmap layer, but mandate context is now shared by the shipped applications.
 
 ## Design rules
 
