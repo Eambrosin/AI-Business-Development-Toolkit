@@ -1,10 +1,14 @@
 # AI Business Development Toolkit — Roadmap
 
-The portfolio currently has four shipped Commercial Intelligence applications:
+The portfolio currently has four shipped Commercial Intelligence applications operating around a shared Commercial Mandate:
 
 ```text
+COMMERCIAL MANDATE
+        ↓
 ACCOUNT DEVELOPMENT
 IDENTIFY → PRIORITIZE → ENGAGE
+                        ↓
+        Opportunity → Deal Sheet → Mandate Reporting
 
 PARTNERSHIP DEVELOPMENT
 IDENTIFY / Partner Universe → PARTNER → ENGAGE
@@ -23,7 +27,10 @@ The roadmap is intentionally narrow. New modules are not presented as shipped pr
 
 Purpose:
 
-- discover relevant target accounts
+- define / preserve Commercial Mandate context
+- frame origin → target market corridor
+- organize trade-feasibility verification questions
+- discover relevant buyer and partner universes
 - preserve public evidence
 - separate Account Opportunity from Qualification Readiness
 - enrich account context
@@ -41,10 +48,11 @@ Purpose:
 
 Purpose:
 
+- qualify buyers and partners against the active mandate
 - configure an Ideal Customer Profile
 - evaluate commercial fit
 - preserve explainable score contributions
-- prioritize pipeline attention
+- prioritize commercial attention
 - connect qualification context to next actions
 
 [Repository](https://github.com/Eambrosin/lead-qualification-scorer) · [Live App](https://lead-qualification-scorer-eambrosin.streamlit.app/)
@@ -58,11 +66,14 @@ Purpose:
 
 Purpose:
 
-- consume qualification context
+- consume mandate and qualification context
 - preserve Buyer Access and Sales Motion
 - adapt cadence to commercial priority
 - use available public channels
 - support multilingual, qualification-first outreach
+- record responses, meetings and next actions
+- create Commercial Deal Sheets
+- generate operational mandate reporting
 - connect digital and field-sales execution
 
 [Repository](https://github.com/Eambrosin/outreach-sequence-generator) · [Live App](https://outreach-sequence-generator-eambrosin.streamlit.app/)
@@ -76,9 +87,12 @@ Purpose:
 
 Purpose:
 
-- evaluate strategic fit
-- assess market access
+- evaluate route-to-market fit
+- assess market access and relevant customer base
 - compare execution feasibility
+- assess technical-service / after-sales capability
+- assess import / regulatory capability
+- identify exclusivity conflicts
 - define partnership archetypes
 - recommend relationship models and next actions
 
@@ -88,17 +102,20 @@ Purpose:
 
 ## Current Portfolio Priorities
 
-The current priority is **integration and reliability**, not adding more standalone products.
+The current priority is **turning the four applications into one mandate-execution operating system**, not adding more standalone products.
 
 Focus areas:
 
-- consistent terminology across applications
+- consistent Commercial Mandate context across applications
 - stable portable handoffs
+- buyer / partner counterparty separation
+- trade-feasibility verification states
+- route-to-market partner due diligence
+- opportunity / deal execution tracking
+- mandate-level reporting
 - shared market-profile conventions
 - transparent evidence states
 - stronger cross-product interoperability
-- clearer portfolio documentation
-- recruiter- and stakeholder-friendly demos
 - production-quality testing and secret scanning
 
 ---
@@ -107,7 +124,7 @@ Focus areas:
 
 **Status:** Roadmap / not shipped
 
-The future Market Expansion Intelligence layer is intended to support structured market-entry decisions.
+A large part of market-expansion execution is now embedded in the shipped applications. The future standalone Market Expansion Intelligence layer would consolidate those decisions into a dedicated executive workspace.
 
 Potential decision areas include:
 
