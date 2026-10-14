@@ -97,3 +97,23 @@ Reporting / Next Action
 ```
 
 The objective is to preserve commercial reasoning, evidence and next actions across the full mandate rather than treating research, qualification, partner development and outreach as disconnected tasks.
+
+
+## Portable persistence
+
+ENGAGE now supports a **Mandate Workspace Snapshot** for continuity across Streamlit sessions.
+
+The snapshot can preserve:
+
+- Commercial Mandate context
+- current execution pipeline
+- Business Development execution updates
+- Commercial Deal Sheets
+- field-visit feedback
+- source metadata
+
+This provides practical single-user persistence without introducing an external database prematurely.
+
+It is intentionally a portable file-based layer. A future database-backed version can use the same structured records when multi-user access, shared client workspaces, permissions and automatic synchronization become necessary.
+
+Workspace Snapshots may contain commercially sensitive information and should be handled according to the confidentiality requirements of the mandate.
