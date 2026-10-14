@@ -38,6 +38,7 @@ mandate_name
 mandate_status
 mandate_client
 mandate_corridor
+mandate_counterparty_focus
 mandate_origin_market
 mandate_target_market
 mandate_product
@@ -147,27 +148,34 @@ partnership_archetype
 ### Account-development path
 
 ```text
+COMMERCIAL MANDATE
+        ↓
 IDENTIFY
-Opportunity Discovery
-  + selective Account Enrichment
+Buyer / End-Customer Discovery
         ↓
 PRIORITIZE
-Lead Qualification
+Counterparty Qualification & Commercial Priority
         ↓
 ENGAGE
-Adaptive Outreach
+Business Development Execution
+        ↓
+Qualified Dialogue → Opportunity → Deal Sheet → Mandate Reporting
 ```
 
 ### Partnership-development path
 
 ```text
+COMMERCIAL MANDATE
+        ↓
 IDENTIFY or Existing Partner Universe
         ↓
 PARTNER
-Partnership Intelligence
+Route-to-Market & Partner Intelligence
         ↓
 ENGAGE
-Adaptive Partner Outreach
+Partner Development / Follow-Up
+        ↓
+Qualified Dialogue → Opportunity → Mandate Reporting
 ```
 
 Partnership analysis is therefore a **parallel commercial track**, not a mandatory downstream step for every sales lead.
@@ -187,7 +195,7 @@ ENGAGE
 Qualified Dialogue / Opportunity
 ```
 
-Market-expansion intelligence remains a roadmap layer, but mandate context is now shared by the shipped applications.
+Market-expansion intelligence is now partially operationalized across the shipped applications through Commercial Mandate, trade-feasibility, buyer / partner discovery, route-to-market due diligence, execution tracking, deal sheets and mandate reporting. A separate standalone Market Expansion application remains a roadmap item.
 
 ## Design rules
 
@@ -321,3 +329,81 @@ Research Required
 ```
 
 Qualification readiness measures evidence completeness before formal qualification. It must not be presented as opportunity fit, win probability, revenue potential or buying intent.
+
+
+## Business Development execution fields
+
+ENGAGE may preserve execution-stage records such as:
+
+```text
+opportunity_stage
+response_status
+meeting_outcome
+commercial_interest
+products_discussed
+decision_maker_status
+budget_status
+timeline
+technical_questions
+objections
+documents_requested
+next_action
+next_action_date
+execution_notes
+```
+
+These fields record commercial activity and qualification outcomes. They are not inferred automatically from outreach generation.
+
+## Commercial deal fields
+
+When an account becomes an active opportunity, ENGAGE can create a Commercial Deal Sheet with fields such as:
+
+```text
+deal_stage
+deal_product
+deal_product_specification
+deal_quantity
+deal_indicative_value
+deal_currency
+quotation_status
+incoterm
+payment_terms
+moq
+delivery_terms
+warranty_terms
+after_sales_model
+exclusivity_terms
+territory_terms
+commission_terms
+technical_validation
+regulatory_validation
+documents_exchanged
+decision_makers
+commercial_risks
+deal_next_step
+deal_next_step_date
+deal_notes
+```
+
+Commercial deal fields organize negotiation context. They do not replace legal, regulatory, customs, tax, financial or technical validation.
+
+## Mandate reporting
+
+ENGAGE can aggregate the currently loaded / entered records into operational mandate indicators including:
+
+```text
+counterparties researched
+qualified counterparties
+high-priority counterparties
+contacted
+responses
+meetings
+active opportunities
+quotations / proposals
+won
+pipeline value by currency
+pending next actions
+top opportunities
+```
+
+Reporting reflects the data currently available in the workflow and must not be represented as independently verified market-size or conversion-rate evidence.
