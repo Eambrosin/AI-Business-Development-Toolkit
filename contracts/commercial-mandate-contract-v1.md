@@ -8,6 +8,8 @@ It exists to answer one question before any account, partner or outreach decisio
 
 The mandate is created upstream and preserved across IDENTIFY, PRIORITIZE, PARTNER and ENGAGE.
 
+The canonical fields can also be exported as a **portable JSON document**. This allows the same mandate to be loaded independently in any shipped application without recreating the client, corridor, product and commercial-objective context.
+
 ## Core fields
 
 ```text
