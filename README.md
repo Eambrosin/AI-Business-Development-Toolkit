@@ -90,6 +90,22 @@ These states organize commercial execution; they are not automatic customs, lega
 - [Trade & Market Entry Feasibility Contract v1](contracts/trade-feasibility-contract-v1.md)
 - [Commercial Intelligence Data Contract v1](contracts/commercial-intelligence-data-contract-v1.md)
 
+### Ambrosin Commercial Mandate Workspace
+
+The live applications now expose the same **Mandate Workspace** navigation layer.
+
+From any module, the user can see:
+
+- the active Commercial Mandate when one is loaded
+- the current workflow stage
+- the recommended next stage
+- direct navigation to IDENTIFY, PRIORITIZE, PARTNER and ENGAGE
+- the same portable Commercial Mandate JSON as the cross-app context carrier
+
+This turns the portfolio into a modular Business Development operating workflow rather than four isolated applications.
+
+Detailed reference: [Ambrosin Commercial Mandate Workspace](docs/MANDATE_WORKSPACE.md)
+
 ---
 
 ## Current Applications
