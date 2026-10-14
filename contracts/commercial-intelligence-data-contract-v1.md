@@ -59,6 +59,8 @@ mandate_success_criteria
 
 The mandate is shared context. It must not be overwritten by account-level scoring.
 
+The canonical mandate fields can also be serialized as a portable JSON document so the same client / corridor / product context can be loaded independently in IDENTIFY, PRIORITIZE, PARTNER or ENGAGE.
+
 See [Commercial Mandate Contract v1](commercial-mandate-contract-v1.md).
 
 ## Trade feasibility fields
