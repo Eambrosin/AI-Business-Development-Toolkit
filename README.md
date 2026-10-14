@@ -31,13 +31,15 @@ Client · Corridor · Product · Objective · Buyers / Partners · Route to Mark
 ACCOUNT DEVELOPMENT
 
 IDENTIFY
-Opportunity Discovery Intelligence
+Market Entry & Opportunity Intelligence
         ↓
 PRIORITIZE
-Lead Qualification & Revenue Prioritization
+Counterparty Qualification & Commercial Priority
         ↓
 ENGAGE
-Adaptive Outreach Intelligence
+Business Development Execution
+        ↓
+Qualified Dialogue → Opportunity → Deal Sheet → Mandate Reporting
 
 
 PARTNERSHIP DEVELOPMENT
@@ -45,14 +47,16 @@ PARTNERSHIP DEVELOPMENT
 IDENTIFY / Partner Universe
         ↓
 PARTNER
-Partnership Intelligence
+Route-to-Market & Partner Intelligence
         ↓
 ENGAGE
-Adaptive Partner Outreach
+Partner Development & Follow-Up
+        ↓
+Qualified Dialogue → Opportunity → Mandate Reporting
 
 
 ROADMAP
-Market Expansion Intelligence
+Standalone Market Expansion Intelligence
 ```
 
 Each layer has a specific commercial purpose. The system does not force every opportunity through one universal funnel.
@@ -92,16 +96,16 @@ These states organize commercial execution; they are not automatic customs, lega
 
 | Layer | Application | Version | Commercial Purpose | Live |
 |---|---|---:|---|---|
-| **IDENTIFY** | [Opportunity Discovery Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | v1.0.0 | Discover and screen target accounts using public evidence and sector-specific criteria | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
-| **PRIORITIZE** | [Lead Qualification & Revenue Prioritization](https://github.com/Eambrosin/lead-qualification-scorer) | v2.0.0 | Qualify buyers / partners and allocate attention using explainable commercial scoring | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
-| **ENGAGE** | [Adaptive Outreach Intelligence](https://github.com/Eambrosin/outreach-sequence-generator) | v2.1.0 | Convert mandate context into outreach, qualified dialogue, follow-up and opportunity execution | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
-| **PARTNER** | [Partnership Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | v2.0.0 | Evaluate route-to-market fit, market access, service capability and execution feasibility | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
+| **IDENTIFY** | [Opportunity Discovery Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | v1.0.0 | Frame a Commercial Mandate, assess trade-feasibility questions, and discover buyer / partner universes using public evidence | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
+| **PRIORITIZE** | [Lead Qualification & Revenue Prioritization](https://github.com/Eambrosin/lead-qualification-scorer) | v2.0.0 | Qualify counterparties in the context of the mandate and allocate commercial attention using explainable scoring | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
+| **ENGAGE** | [Adaptive Outreach Intelligence](https://github.com/Eambrosin/outreach-sequence-generator) | v2.1.0 | Execute outreach, qualification dialogue, follow-up, opportunity tracking, deal sheets and mandate reporting | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
+| **PARTNER** | [Partnership Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | v2.0.0 | Evaluate route-to-market fit, market access, technical / after-sales capability and execution feasibility | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
 
 ---
 
-## IDENTIFY — Opportunity Discovery Intelligence
+## IDENTIFY — Market Entry & Opportunity Intelligence
 
-**Commercial question:** Which accounts should enter the pipeline, and what evidence supports that decision?
+**Commercial question:** For this mandate, who could buy or enable market entry, what public evidence supports the hypothesis, and what must still be validated?
 
 Core capabilities include:
 
@@ -126,9 +130,9 @@ Core capabilities include:
 
 ---
 
-## PRIORITIZE — Lead Qualification & Revenue Prioritization
+## PRIORITIZE — Counterparty Qualification & Commercial Priority
 
-**Commercial question:** Which opportunities deserve attention first, and why?
+**Commercial question:** Which counterparties matter most to this mandate, how complete is the qualification evidence, and what should happen next?
 
 Core capabilities include:
 
@@ -148,9 +152,9 @@ Core capabilities include:
 
 ---
 
-## ENGAGE — Adaptive Outreach Intelligence
+## ENGAGE — Business Development Execution
 
-**Commercial question:** How should this opportunity be approached, through which available channel and with what cadence?
+**Commercial question:** How should we approach the counterparty, progress the dialogue, manage follow-up and advance a qualified opportunity toward commercial execution?
 
 Core capabilities include:
 
@@ -160,6 +164,10 @@ Core capabilities include:
 - public-channel-aware execution
 - multilingual outreach
 - qualification-first messaging
+- Business Development execution log
+- response / meeting / next-action tracking
+- Commercial Deal Sheet
+- mandate-level activity and pipeline reporting
 - deterministic fallback generation
 - optional AI-assisted copy
 - territory / field-sales context
@@ -173,9 +181,9 @@ Core capabilities include:
 
 ---
 
-## PARTNER — Partnership Intelligence
+## PARTNER — Route-to-Market & Partner Intelligence
 
-**Commercial question:** Which partnership opportunities should be prioritized, and what relationship model makes sense?
+**Commercial question:** Which partners can create credible market access and execution capability for this mandate, and what relationship model makes sense?
 
 Core capabilities include:
 
@@ -185,6 +193,11 @@ Core capabilities include:
 - market-access context
 - relationship-strength signals
 - execution feasibility
+- route-to-market due diligence
+- customer-base fit
+- technical-service and after-sales capability
+- import / regulatory capability
+- exclusivity-conflict validation
 - partnership archetypes
 - recommended partnership models
 - opportunity-level workspace
@@ -226,6 +239,8 @@ The applications use portable handoffs and common metadata to preserve commercia
 Current shared contracts:
 
 - [Commercial Intelligence Data Contract v1](contracts/commercial-intelligence-data-contract-v1.md)
+- [Commercial Mandate Contract v1](contracts/commercial-mandate-contract-v1.md)
+- [Trade & Market Entry Feasibility Contract v1](contracts/trade-feasibility-contract-v1.md)
 - [Market Profile Registry v1](contracts/market-profile-registry-v1.md)
 
 Shared concepts include:
@@ -233,6 +248,9 @@ Shared concepts include:
 - `schema_version`
 - `source_stage`
 - `market_profile_id`
+- Commercial Mandate
+- buyer / partner counterparty focus
+- trade-feasibility verification states
 - account identity
 - score rationale
 - Qualification Readiness
@@ -240,6 +258,8 @@ Shared concepts include:
 - Sales Motion
 - qualification gaps
 - recommended next action
+- opportunity / deal context
+- mandate reporting
 
 ---
 
@@ -300,9 +320,9 @@ Technology is treated as an execution layer, not the professional identity of th
 
 **Status:** Roadmap / not presented as a shipped product.
 
-The future Market Expansion Intelligence layer is intended to structure market-entry decisions around commercial fit, route to market, partnership need, localization, execution complexity and validation questions.
+Market-expansion functionality is now partially operationalized across the shipped applications through Commercial Mandate, trade-feasibility, buyer / partner discovery, route-to-market due diligence, execution tracking, deal sheets and reporting.
 
-It remains outside the shipped product set until it reaches the same implementation, testing and demo standard as IDENTIFY, PRIORITIZE, ENGAGE and PARTNER.
+A **separate standalone Market Expansion Intelligence application** remains a roadmap item and will not be presented as shipped until it reaches the same implementation, testing and demo standard as IDENTIFY, PRIORITIZE, ENGAGE and PARTNER.
 
 For the concise roadmap:
 
@@ -318,6 +338,8 @@ ROADMAP.md
 
 contracts/
   commercial-intelligence-data-contract-v1.md
+  commercial-mandate-contract-v1.md
+  trade-feasibility-contract-v1.md
   market-profile-registry-v1.md
 
 intelligence/
