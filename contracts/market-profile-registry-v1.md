@@ -13,7 +13,7 @@ The portfolio uses stable `market_profile_id` values so the same commercial segm
 | `fintech` | Fintech | Payments, platforms, partnership-led growth |
 | `real_estate` | Real Estate | Developers, brokerages, investment/advisory |
 | `government_public_sector` | Government / Public Sector | Procurement, institutional and B2G opportunities |
-| `medical_aesthetics` | Medical Aesthetics | Clinics, physicians, dermatology, plastic surgery, eligible aesthetic professionals |
+| `medical_aesthetics` | Medicina Estetica | Clinics, physicians, dermatology, plastic surgery, eligible aesthetic professionals |
 | `custom` | Custom | User-defined market profile |
 
 ## Photovoltaic C&I safeguards
@@ -52,6 +52,7 @@ Profiles configure:
 - positive fit signals
 - exclusions
 - target geographies
+- buyer / partner counterparty focus
 - target account types
 - target decision-maker roles
 
