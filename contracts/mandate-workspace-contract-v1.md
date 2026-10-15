@@ -107,6 +107,22 @@ and a working priority such as:
 
 These are workflow aids, not autonomous sales decisions.
 
+## Cross-module handoff
+
+Once a mandate is persisted, the shared navigation may transport the opaque `mandate_id` between modules as a URL query parameter.
+
+The receiving module resolves the canonical mandate from the private backend after workspace access is authorized.
+
+The transport URL must not contain:
+
+- database credentials
+- the private Workspace Access Token
+- client confidential data
+- commercial notes
+- deal terms
+
+Portable JSON remains the offline / fallback handoff.
+
 ## Persistence model
 
 Two logical entities are sufficient for the current Ambrosin internal-use phase:
@@ -150,6 +166,8 @@ Recommended controls:
 - Row Level Security enabled
 - no anonymous public read/write policies
 - privileged database key never committed to GitHub
+- a separate private Workspace Access Token before cloud read/write is enabled
+- the Workspace Access Token never placed in shared URLs
 - portable snapshots treated as confidential mandate files
 
 A future client portal requires authenticated users, mandate ownership and explicit tenant-level RLS policies.
