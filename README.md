@@ -387,7 +387,6 @@ intelligence/
 
 assets/
   banners/
-  screenshots/
 
 docs/
   PORTFOLIO_ARCHITECTURE_REFERENCE.md
