@@ -4,10 +4,10 @@
 
 ### Commercial Intelligence | International Business Development | GTM | Strategic Partnerships
 
-![Discovery](https://img.shields.io/badge/IDENTIFY-v1.0.0-success)
-![Lead Qualification](https://img.shields.io/badge/PRIORITIZE-v2.0.0-success)
-![Adaptive Outreach](https://img.shields.io/badge/ENGAGE-v2.1.0-success)
-![Partnership Intelligence](https://img.shields.io/badge/PARTNER-v2.0.0-success)
+[![IDENTIFY](https://img.shields.io/badge/IDENTIFY-v2.0.0-success)](https://github.com/Eambrosin/opportunity-discovery-intelligence/releases/tag/v2.0.0)
+[![PRIORITIZE](https://img.shields.io/badge/PRIORITIZE-v3.0.0-success)](https://github.com/Eambrosin/lead-qualification-scorer/releases/tag/v3.0.0)
+[![ENGAGE](https://img.shields.io/badge/ENGAGE-v3.0.0-success)](https://github.com/Eambrosin/outreach-sequence-generator/releases/tag/v3.0.0)
+[![PARTNER](https://img.shields.io/badge/PARTNER-v3.0.0-success)](https://github.com/Eambrosin/partnership-opportunity-finder/releases/tag/v3.0.0)
 ![Market Expansion](https://img.shields.io/badge/ROADMAP-Market%20Expansion-orange)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey)
 
@@ -108,14 +108,14 @@ This turns the portfolio into a modular Business Development operating workflow 
 
 ## Current Applications
 
-| Layer | Application | Current Main-Branch Role | Live |
-|---|---|---|---|
-| **IDENTIFY** | [Opportunity Discovery Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | Create / restore the mandate, discover buyer and partner universes, preserve evidence and research readiness | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
-| **PRIORITIZE** | [Counterparty Qualification & Commercial Priority](https://github.com/Eambrosin/lead-qualification-scorer) | Apply configurable ICP and commercial scoring, then route buyers to ENGAGE and partner candidates to PARTNER | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
-| **PARTNER** | [Route-to-Market & Partner Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | Evaluate market access, partner fit, technical / after-sales capability and route-to-market readiness | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
-| **ENGAGE** | [Business Development Execution & Outreach](https://github.com/Eambrosin/outreach-sequence-generator) | Execute outreach, follow-up, meetings, opportunity management, deal sheets and mandate reporting | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
+| Layer | Application | Stable Release | Commercial Role | Live |
+|---|---|---:|---|---|
+| **IDENTIFY** | [Market Entry & Opportunity Intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence) | [v2.0.0](https://github.com/Eambrosin/opportunity-discovery-intelligence/releases/tag/v2.0.0) | Create / restore the mandate, discover buyer and partner universes, preserve evidence and research readiness | [Launch](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/) |
+| **PRIORITIZE** | [Counterparty Qualification & Commercial Priority](https://github.com/Eambrosin/lead-qualification-scorer) | [v3.0.0](https://github.com/Eambrosin/lead-qualification-scorer/releases/tag/v3.0.0) | Apply configurable ICP and commercial scoring, then route buyers to ENGAGE and partner candidates to PARTNER | [Launch](https://lead-qualification-scorer-eambrosin.streamlit.app/) |
+| **PARTNER** | [Route-to-Market & Partner Intelligence](https://github.com/Eambrosin/partnership-opportunity-finder) | [v3.0.0](https://github.com/Eambrosin/partnership-opportunity-finder/releases/tag/v3.0.0) | Evaluate market access, partner fit, technical / after-sales capability and route-to-market readiness | [Launch](https://partnership-opportunity-finder-eambrosin.streamlit.app/) |
+| **ENGAGE** | [Business Development Execution & Outreach](https://github.com/Eambrosin/outreach-sequence-generator) | [v3.0.0](https://github.com/Eambrosin/outreach-sequence-generator/releases/tag/v3.0.0) | Execute outreach, follow-up, meetings, opportunity management, deal sheets and mandate reporting | [Launch](https://outreach-sequence-generator-eambrosin.streamlit.app/) |
 
-Tagged releases remain available in the individual repositories; the current main branches include the shared Workspace integration described here.
+These releases formalize the shared Commercial Mandate Workspace architecture across the four shipped applications.
 
 ---
 
@@ -143,6 +143,7 @@ Current capabilities include:
 - partner handoff to PARTNER
 - execution continuity into ENGAGE
 
+**Stable Release:** [v2.0.0](https://github.com/Eambrosin/opportunity-discovery-intelligence/releases/tag/v2.0.0)  
 **Repository:** [opportunity-discovery-intelligence](https://github.com/Eambrosin/opportunity-discovery-intelligence)  
 **Live App:** [Launch IDENTIFY](https://opportunity-discovery-intelligence-eambrosin.streamlit.app/)
 
@@ -169,6 +170,7 @@ Current capabilities include:
   - partner candidates → PARTNER
   - mixed mandates → both paths as appropriate
 
+**Stable Release:** [v3.0.0](https://github.com/Eambrosin/lead-qualification-scorer/releases/tag/v3.0.0)  
 **Repository:** [lead-qualification-scorer](https://github.com/Eambrosin/lead-qualification-scorer)  
 **Live App:** [Launch PRIORITIZE](https://lead-qualification-scorer-eambrosin.streamlit.app/)
 
@@ -196,6 +198,7 @@ Current capabilities include:
 - mandate funnel and client-ready reporting
 - portable Workspace Snapshot recovery
 
+**Stable Release:** [v3.0.0](https://github.com/Eambrosin/outreach-sequence-generator/releases/tag/v3.0.0)  
 **Repository:** [outreach-sequence-generator](https://github.com/Eambrosin/outreach-sequence-generator)  
 **Live App:** [Launch ENGAGE](https://outreach-sequence-generator-eambrosin.streamlit.app/)
 
@@ -225,6 +228,7 @@ Current capabilities include:
 - explicit due-diligence gaps
 - ENGAGE handoff under the same mandate
 
+**Stable Release:** [v3.0.0](https://github.com/Eambrosin/partnership-opportunity-finder/releases/tag/v3.0.0)  
 **Repository:** [partnership-opportunity-finder](https://github.com/Eambrosin/partnership-opportunity-finder)  
 **Live App:** [Launch PARTNER](https://partnership-opportunity-finder-eambrosin.streamlit.app/)
 
